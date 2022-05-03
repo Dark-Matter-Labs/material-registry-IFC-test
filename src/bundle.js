@@ -44656,7 +44656,7 @@ var require_web_ifc_mt = __commonJS({
         function isFileURI(filename) {
           return hasPrefix(filename, fileURIPrefix);
         }
-        var wasmBinaryFile = "web-ifc-mt.wasm";
+        var wasmBinaryFile = "https://dark-matter-labs.github.io/material-registry-IFC-test/web-ifc-mt.wasm";
         if (!isDataURI(wasmBinaryFile)) {
           wasmBinaryFile = locateFile(wasmBinaryFile);
         }
@@ -50542,10 +50542,10 @@ var require_web_ifc = __commonJS({
         function isFileURI(filename) {
           return hasPrefix(filename, fileURIPrefix);
         }
-        var wasmBinaryFile = "web-ifc.wasm";
-        if (!isDataURI(wasmBinaryFile)) {
-          wasmBinaryFile = locateFile(wasmBinaryFile);
-        }
+        var wasmBinaryFile = "https://dark-matter-labs.github.io/material-registry-IFC-test/web-ifc.wasm";
+        // if (!isDataURI(wasmBinaryFile)) {
+        //   wasmBinaryFile = locateFile(wasmBinaryFile);
+        // }
         function getBinary() {
           try {
             if (wasmBinary) {
